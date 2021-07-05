@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AddActivity">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title"
+        android:layout_marginTop="150dp"
+        android:id="@+id/title2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Author"
+        android:layout_marginTop="20dp"
+        android:id="@+id/author2"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of pages"
+        android:id="@+id/page2"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/bt2"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="130dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/bt3"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="130dp" />
+
+
+
+
+
+</LinearLayout>
